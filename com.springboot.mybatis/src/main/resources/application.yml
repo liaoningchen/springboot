@@ -40,6 +40,14 @@ spring:
     useGlobalDataSourceStat: true
     # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+  mvc:
+    favicon:
+      enabled: false
 
 server:
   port: 8888
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  # pojo类所在包路径
+  type-aliases-package: com.cdy.mybatis.dto
