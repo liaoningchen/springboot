@@ -27,6 +27,10 @@ target/
 /nbdist/
 /.nb-gradle/
 build/
-
+compiler.xml
+encodings.xml
+misc.xml
+modules.xml
+workspace.xml
 ### VS Code ###
 .vscode/
